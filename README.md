@@ -10,9 +10,11 @@ Using transfer learning decreases the computational complexity and also increase
 The dataset used is publicly available Plant Village Dataset
 
 The above model provides a better visual view of the infected parts of plants, Which can be seen in the below image!
+
 ![Visual view](https://user-images.githubusercontent.com/74169520/157288145-b7822172-46eb-432f-af98-3160daea751f.jpg)
 
 The output from the Teacher classifier is used as input for the decode classifier whose output is the visual view shown above, Later this image is used as input for the student classifier for training.
+
 ![Teacher Student Model](https://user-images.githubusercontent.com/74169520/157288180-05eaf556-0b42-49a1-998b-c2c2f8d16040.jpg)
 
 The above .ipynb file contains the code for building the model, training it and saving the weights
